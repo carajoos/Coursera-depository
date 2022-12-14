@@ -1,19 +1,2 @@
-#first python code - from https://www.geeksforgeeks.org/python-check-if-string-contain-only-defined-characters-using-regex/
-#check if string contain only defined characters using Regex
-# _importing module
-import re
-  
-  
-def check(str, pattern):
-    
-    # _matching the strings
-    if re.search(pattern, str):
-        print("Valid String")
-    else:
-        print("Invalid String")
-  
-# _driver code
-pattern = re.compile('^[1234]+$')
-check('2134', pattern)
-check('349', pattern)
-#make changes and commit
+#Disply the output
+print("New Python file")
